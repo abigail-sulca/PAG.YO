@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #030405;
+    font-family: verdana;
+}
+
+.container{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+
+.superior{
+    background: #a14b15;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+
+/*Estilos para el menu de opciones*/
+.menu{
+    float: left;
+    padding: 50px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.opciones li a:hover{
+    background: #a14b15;
+}
+
+/*Estilos para el cuerpo*/
+.cuerpo{
+    overflow: hidden;
+}
+
+.caja{
+    float:left;
+    width: 350px;
+    margin: 22px;
+    border: 1px solid;
+}
+
+.subtitulo{
+    background: #a14b15;
+    font-size: 18px;
+}
+
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.efecto:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.contenido{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: century gothic;
+}
+
+.boton{
+    padding: 14px 16px;
+    margin: 14px 0;
+    color: white;
+    background: #a14b15;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background:#a14b15;
+    cursor: pointer;
+}
+
+.titulo{
+    text-align:center;
+    padding: 20px 0 15px 0;
+    color: rgb(29, 29, 31);
+    font-size: 36px;
+    font-family: century gothic;
+}
+
+.titulo2{
+    text-align:left;
+    padding: 20px 0 10px 0;
+    color: rgb(29, 29, 31);
+    font-size: 30px;
+    font-family: century gothic;
+}
+
+.titulo3{
+    text-align:center;
+    padding: 20px 0 15px 0;
+    color: rgb(29, 29, 31);
+    font-size: 30px;
+    font-family: century gothic;
+}
+
+.contenido0{
+    text-align:justify;
+    padding: 20px 0 10px 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(29, 29, 31);
+    font-size:20px;
+    font-family: century gothic;
+}
+
+.contenido3{
+    text-align:justify;
+    padding: 20px 0 10px 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(29, 29, 31);
+    font-size:20px;
+    font-family: century gothic;
+}
+
+
+/*Estilos de footer*/
+.pie{
+    background: #a14b15;
+    overflow: hidden;   
+}
+
+.izquierda{
+    float:left;
+    width: 550px;
+    padding: 20px;
+    
+}
+
+.derecha{
+    float:left;
+    width: 550px;
+}
+
+.abajo{
+    color:white;
+    font-size: 14px;
+}
+
+.siguenos{
+    text-align: center;
+    color: white;
+    padding: 28px 0;
+}
+
+
+
+
+
